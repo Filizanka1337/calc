@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Calculator" Height="442" Width="433">
+    <Window.Resources>
+        <SolidColorBrush x:Key="BackgroundColor">#1c1c1e</SolidColorBrush>
+        <!-- Domyślny kolor tła -->
+        <SolidColorBrush x:Key="ButtonColor">#333333</SolidColorBrush>
+        <!-- Domyślny kolor przycisków -->
+        <SolidColorBrush x:Key="TextColor">#ffffff</SolidColorBrush>
+        <!-- Kolor tekstu -->
+    </Window.Resources>
+    <Viewbox>
+        <Grid Background="{StaticResource BackgroundColor}">
+            <TextBox x:Name="ResultBox" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" Foreground="{StaticResource TextColor}" Background="{StaticResource ButtonColor}"/>
+            <Button x:Name="Button1" Content="1" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Number_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="Button2" Content="2" HorizontalAlignment="Left" Margin="95,50,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Number_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="Button3" Content="3" HorizontalAlignment="Left" Margin="180,50,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Number_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="Button4" Content="4" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Number_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="Button5" Content="5" HorizontalAlignment="Left" Margin="95,130,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Number_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="Button6" Content="6" HorizontalAlignment="Left" Margin="180,130,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Number_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="Button7" Content="7" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Number_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="Button8" Content="8" HorizontalAlignment="Left" Margin="95,210,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Number_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="Button9" Content="9" HorizontalAlignment="Left" Margin="180,210,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Number_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="Button0" Content="0" HorizontalAlignment="Left" Margin="10,290,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Number_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="ButtonClear" Content="C" HorizontalAlignment="Left" Margin="96,289,0,0" VerticalAlignment="Top" Width="74" Height="76" Click="ButtonClear_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}" RenderTransformOrigin="0.521,0.515"/>
+            <Button x:Name="ButtonPlus" Content="+" HorizontalAlignment="Left" Margin="265,50,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="ButtonPlus_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="ButtonMinus" Content="-" HorizontalAlignment="Left" Margin="265,130,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="ButtonMinus_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="ButtonMultiply" Content="*" HorizontalAlignment="Left" Margin="265,210,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="ButtonMultiply_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="ButtonDivide" Content="/" HorizontalAlignment="Left" Margin="265,290,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="ButtonDivide_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+            <Button x:Name="ButtonEqual" Content="=" HorizontalAlignment="Left" Margin="180,290,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="ButtonEqual_Click" Background="{StaticResource ButtonColor}" Foreground="{StaticResource TextColor}"/>
+        </Grid>
+    </Viewbox>
+</Window>

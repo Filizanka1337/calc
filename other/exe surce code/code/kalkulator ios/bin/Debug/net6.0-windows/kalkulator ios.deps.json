@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "kalkulator ios/1.0.0": {
+        "runtime": {
+          "kalkulator ios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "kalkulator ios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

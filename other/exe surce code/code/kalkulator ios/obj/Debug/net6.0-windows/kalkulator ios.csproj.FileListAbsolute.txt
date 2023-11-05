@@ -1,0 +1,19 @@
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\bin\Debug\net6.0-windows\kalkulator ios.exe
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\bin\Debug\net6.0-windows\kalkulator ios.deps.json
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\bin\Debug\net6.0-windows\kalkulator ios.runtimeconfig.json
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\bin\Debug\net6.0-windows\kalkulator ios.dll
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\bin\Debug\net6.0-windows\kalkulator ios.pdb
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\kalkulator ios_MarkupCompile.cache
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\kalkulator ios.g.resources
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\kalkulator ios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\kalkulator ios.AssemblyInfoInputs.cache
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\kalkulator ios.AssemblyInfo.cs
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\kalkulator ios.csproj.CoreCompileInputs.cache
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\kalkulator ios.dll
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\refint\kalkulator ios.dll
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\kalkulator ios.pdb
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\kalkulator ios.genruntimeconfig.cache
+C:\Users\kubas\Desktop\ios-calc\kalkulator ios\obj\Debug\net6.0-windows\ref\kalkulator ios.dll
