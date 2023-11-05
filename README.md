@@ -4,5 +4,5 @@ i wrote bc i was bored
 
 # website cus why not?
 
-url:  
+url:  https://filizanka1337.github.io/calc/
 
